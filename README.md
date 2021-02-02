@@ -39,7 +39,7 @@ adopt add user page to add plants, add api call from previous project
 ![image](https://user-images.githubusercontent.com/69176601/106257171-45f17800-61c0-11eb-9e8e-e18da28633cf.png)
 
 
-This is Project 2 of our class. We needed to create an application that uses a new npm package or api as well as being able to have CRUD functionality. We created an app that helps you keep track of the plants you own. you can keep track of things like notes you leave about each plant, when you last watered it and even add photos on how it is doing.
+This is Project 2 of our class. We needed to create an application that uses a new npm package or api as well as being able to have CRUD functionality. We created an app that helps you keep track of the plants you own. You can keep track of things like notes you leave about each plant, when you last watered it and even add photos on how it is doing.
 
 <a name="steps"></a>
 
@@ -57,7 +57,10 @@ To use, you need to be in greenhaus folder, in the integrated terminal type node
 
 ## Contributors
 
-Max Higa, Brandon Tobasaka, Mike Fogarty, James Gilley
+[Max Higa](https://github.com/maxx-808)
+[Brandon Tobasaka](https://github.com/btabaska/)
+[Mike Fogarty](https://github.com/mikefogz)
+[James Gilley](https://github.com/jamesgilley)
 
 <a name="user-guidelines"></a>
 
@@ -83,12 +86,12 @@ You can contact me through:
 
 ## Github Profile:
 
-https://www.github.com/maxx-808
+https://www.github.com/MikeFogz
 
 ## Heroku Deployable URL:
 
-https://vast-escarpment-39602.herokuapp.com/plants
+https://vast-escarpment-39602.herokuapp.com/
 
 ## Email Address:
 
-maxhiga.hawaii@gmail.com
+mikefogz@gmail.com
