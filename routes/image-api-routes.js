@@ -1,27 +1,18 @@
-//requiring all models
-const db = require("../models");
+//Dependency
+const db = require('../models')
 
 //routes
-module.exports = (app) => {
+module.exports = app => {
   //get route for retrieving info from a single image
-  app.get("/api/images/:id", (req, res) => {
+  app.get('/api/images/:id', (req, res) => {
+    console.log('images get', req.params.id)
     db.Image.findOne({
       where: {
-        PlantId: req.params.id,
+        PlantId: req.params.id
       },
-      include: [db.Plant],
-    }).then((dbImage) => res.send(dbImage.dataValues.data));
-  });
-};
-
-// const blobToImage = (blob) => {
-//   return new Promise((resolve) => {
-//     const url = URL.createObjectURL(blob);
-//     let img = new Image();
-//     img.onload = () => {
-//       URL.revokeObjectURL(url);
-//       resolve(img);
-//     };
-//     img.src = url;
-//   });
-// };
+      include: [db.Plant]
+    }).then(dbImage => {
+      res.send(dbImage)
+    })
+  })
+}
